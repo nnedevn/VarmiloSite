@@ -1,0 +1,192 @@
+body {
+    background-color: black;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.headerContent {
+    position: absolute;
+    margin-top: 9%;
+    padding: 0 5%;
+
+}
+
+.headerContent h1 {
+    font-size: 4em;
+    font-weight: 700;
+    color: white;
+}
+
+.headerContent h3 {
+    color: lightgray;
+}
+
+.img-responsive {
+    width: 100%;
+    display: block;
+}
+
+
+#hero-image{
+    brightness(50%);
+}
+
+#mainCarousel .background {
+    bottom: 0px;
+    margin: 2% auto 0
+}
+
+.staticItems {
+    height: auto;
+    padding-bottom: 50px;
+    /*border-bottom: solid 1px white;*/
+
+}
+
+.container {
+    color: whitesmoke;
+}
+
+.padded {
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+/*Individual pages styling*/
+
+.topBlock {
+    padding: 40px;
+    color: white;
+    line-height: 4;
+}
+
+.price h3 {
+    color: gray;
+    line-height: 0;
+}
+
+.price button {
+    background-color: #32CD32;
+    color: white;
+    border: none;
+
+}
+
+.price button:hover,
+.price button:focus {
+
+    background-color: #039403;
+}
+
+.btn-primary:active:focus {
+
+    background-color: #039403;
+}
+
+.btn:focus, .btn:active:focus {
+    outline: none;
+}
+
+.subnav {
+    min-height: 50px;
+}
+
+.subnav .nav li a {
+    color: #32CD32;
+    height: 60px;
+
+}
+
+.subnav .nav li a:hover,
+.subnav .nav li a:focus,
+.subnav .nav li.active a {
+    background-color: black;
+    border-bottom: 4px solid #32CD32;
+    color: #FFF;
+}
+
+/*!*DEV*!*/
+* {
+background-color: rgba(255, 0, 0, 0.1);
+}
+
+.flex-row {
+    display: flex;
+    flex-flow: row;
+    /*justify-content: flex-end;*/
+}
+
+.logo {
+    font-family: "Comic Sans MS";
+}
+
+.navbar {
+    max-height: 20px;
+    font-weight: 800;
+}
+
+.navbar-nav li a {
+    color: #32CD32;
+    font-weight: 700;
+}
+
+.navbar-nav li a:hover,
+.navbar-nav li a:focus {
+    background-color: #32CD32;
+    color: black;
+}
+
+.nav-subheader {
+    /*border-bottom: 1px solid crimson;*/
+}
+
+.subnav {
+    /*border-bottom: 1px solid crimson;*/
+}
+
+#navbar {
+    padding-top: 50px;
+}
+
+
+
+
+.navbar-form input, .form-inline input {
+    width:auto;
+}
+
+.navbar {
+    margin-bottom:0;
+}
+
+.nav {
+    background-color: black;
+}
+
+.subnav {
+    margin:0;
+    top: 0px;
+    z-index: 1020;
+    padding: 40px 0px 0px 0px;
+
+}
+
+.subnav.affix {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index:10;
+}
+
+@media (max-width: 70em ) {
+
+    .video {
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .headerContent h1 {
+        font-size: 2em;
+        font-weight: 700;
+        color: white;
+    }
+}
